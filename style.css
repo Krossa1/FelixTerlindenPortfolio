@@ -1,3 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Open+Sans:wght@400;700;800&family=Roboto+Condensed:wght@300&display=swap');
+
 body{
-    background-color: yellow;
+    background-color: rgb(56, 62, 59);
+    font-family: 'Gabarito', sans-serif;
+    padding: 0;
+    margin: 0;
 }
+
+nav{
+    height: 120px;
+    background-color: rgb(19, 21, 21);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.profile-picture{
+    box-sizing: border-box;
+    height: 120px;
+    border-radius: 60px;
+    color: blue;
+    border: 8px solid rgb(46, 51, 49);
+}
+
+.banner-main{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#header-font{
+    font-size: 60px;
+    color: rgb(228, 137, 44);
+    margin: 0px;
+    text-decoration: none;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.clickable-nav{
+    text-decoration: none;
+    outline: none;
+    font-size: 30px;
+    background-color: rgb(46 51 48);
+    border-radius: 50px;
+    color: rgb(224, 217, 210);
+    box-sizing: border-box;
+    width: 30%;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.clickable-nav:visited{
+    text-decoration: none;
+    outline: none;
+    font-size: 26px;
+    background-color: rgb(46 51 48);
+    border-radius: 50px;
+    color: rgb(224, 217, 210);
+    box-sizing: border-box;
+    width: 30%;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.navigation p:hover{
+    cursor: pointer;
+}
+
+p{
+    font-size: 150px;
+    word-wrap: break-word;
+}
+
+
+
+
+
+/*
+<nav>
+            <img src="Assets/profile-picture.png" alt="Profile picture" class="profile-picture">
+            <div class="banner-main">
+                <p id="header-font">Felix Terlinden Portfolio</p>
+                <div class="navigation">
+                    <p>Home</p>
+                    <p>Projects</p>
+                    <p>About me</p>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="tester">
+            <p>Text1</p>
+            <p>Text2</p>
+            <p>Text3</p>
+        </div>
