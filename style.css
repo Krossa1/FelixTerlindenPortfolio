@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Open+Sans:wght@400;700;800&family=Roboto+Condensed:wght@300&display=swap');
 
 body{
-    background-color: rgb(56, 62, 59);
+    background-color: rgb(68, 75, 72);
     font-family: 'Gabarito', sans-serif;
     padding: 0;
     margin: 0;
@@ -24,7 +24,7 @@ nav{
     height: 120px;
     border-radius: 60px;
     color: blue;
-    border: 8px solid rgb(46, 51, 49);
+    border: 8px solid rgb(40, 45, 40);
 }
 
 .banner-main{
@@ -32,6 +32,7 @@ nav{
     flex-direction: column;
     justify-content: space-between;
     padding: 20px;
+    min-width: 620px;
 }
 
 #header-font{
@@ -39,6 +40,7 @@ nav{
     color: rgb(228, 137, 44);
     margin: 0px;
     text-decoration: none;
+    background: none;
 }
 
 .navigation{
@@ -52,7 +54,7 @@ nav{
     text-decoration: none;
     outline: none;
     font-size: 30px;
-    background-color: rgb(46 51 48);
+    background-color: rgb(40, 45, 40);
     border-radius: 30px;
     color: rgb(224, 217, 210);
     box-sizing: border-box;
@@ -65,7 +67,7 @@ nav{
     text-decoration: none;
     outline: none;
     font-size: 26px;
-    background-color: rgb(46 51 48);
+    background-color: rgb(40, 45, 40);
     border-radius: 30px;
     color: rgb(224, 217, 210);
     box-sizing: border-box;
@@ -79,8 +81,26 @@ nav{
 }
 
 p{
-    font-size: 150px;
+    font-size: 26px;
     word-wrap: break-word;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 30px;
+    max-width: 1200px;
+    color: rgb(224, 217, 210);
+    background-color: rgb(40, 45, 40);
+
+}
+
+a{
+    font-size: 26px;
+    word-wrap: break-word;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
+    max-width: 1200px;
+    color: rgb(228, 137, 44);
+    background-color: rgb(40, 45, 40);
 }
 
 .social-section{
@@ -88,8 +108,9 @@ p{
     padding: 3px 40px;
     display: flex;
     flex-direction: column;
-    background-color: rgb(46 51 48);
+    background-color: rgb(40, 45, 40);
     border-radius: 30px;
+    min-width: 440px;
 }
 
 .social-links{
@@ -136,7 +157,6 @@ p{
     color: rgb(224, 217, 210);
     margin: 0;
     padding: 0;
-
 }
 
 #email-ref{
@@ -144,25 +164,4 @@ p{
     color: rgb(228, 137, 44);
     margin: 0;
     padding: 0;
-
 }
-
-/*
-<nav>
-            <img src="Assets/profile-picture.png" alt="Profile picture" class="profile-picture">
-            <div class="banner-main">
-                <p id="header-font">Felix Terlinden Portfolio</p>
-                <div class="navigation">
-                    <p>Home</p>
-                    <p>Projects</p>
-                    <p>About me</p>
-                </div>
-            </div>
-        </nav>
-
-
-        <div class="tester">
-            <p>Text1</p>
-            <p>Text2</p>
-            <p>Text3</p>
-        </div>
